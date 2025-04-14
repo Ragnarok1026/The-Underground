@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Sound : MonoBehaviour // PlaySoundJump is the name of the script in unity, so change it accordingly
+public class JumpSound : MonoBehaviour // PlaySoundJump is the name of the script in unity, so change it accordingly
 {
     public AudioSource audioSource;
 
@@ -12,7 +12,7 @@ public class Sound : MonoBehaviour // PlaySoundJump is the name of the script in
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Sound")) // This can be changed for whatever tag you need it to be - Steve
+        if (collision.gameObject.CompareTag("Jump")) // This can be changed for whatever tag you need it to be - Steve
         {
             audioSource.Play();
         }

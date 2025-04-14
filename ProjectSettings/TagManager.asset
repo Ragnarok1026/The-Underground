@@ -10,6 +10,9 @@ TagManager:
   - PeaShooter
   - Determination
   - SaveGame
+  - Sound
+  - Jump
+  - Soul
   layers:
   - Default
   - TransparentFX
